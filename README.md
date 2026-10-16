@@ -2,7 +2,6 @@
 
 让 Codex、Claude Code、Trae、WorkBuddy、千问办公（QwenWork）和豆包办公（豆包工作）把任务交给你电脑上的[小瞳 Work](https://github.com/oulkurt/xiaotong-work)。
 
-> **状态：开发中。** 需要小瞳 Work 0.1.17 或更高版本（尚未发布）。下面的接入方式都还在等实机测试。
 
 ## 它做什么
 
@@ -17,7 +16,7 @@
 ## 工作原理
 
 ```text
-你的 agent ── Skill ──▶ MCP（proma mcp）或 CLI（proma task）
+你的 agent ── Skill ──▶ MCP 或 CLI
                                   │ 127.0.0.1 + 本机令牌
                                   ▼
                        小瞳 Work 本机接单口 ──▶ 项目里的 Agent 会话
@@ -45,7 +44,7 @@ npx skills add oulkurt/xiaotong-dispatch --agent claude-code codex trae trae-cn 
 | 千问办公（QwenWork） | 技能页面上传 ZIP；或解压到 `~/.qwenworkcn/skills/` |
 | 豆包办公（豆包工作） | 插件·技能·伙伴 → 技能 → 添加 → 上传 |
 
-### 第二步：接入 MCP（推荐；Codex 必须接）
+### 第二步：接入 MCP
 
 agent 通过 MCP 连接小瞳。`proma` 随小瞳 Work 一起安装，路径固定：
 
