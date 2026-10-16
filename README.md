@@ -1,6 +1,6 @@
 # 小瞳派单（xiaotong-dispatch）
 
-让 Codex、Claude Code、Trae、WorkBuddy、千问办公（QwenWork）和豆包办公（豆包工作）把任务交给你电脑上的[小瞳 Work](https://github.com/oulkurt/xiaotong-work)。
+让 Codex、Claude Code、Trae、WorkBuddy、千问办公（QwenWork）和豆包办公（豆包工作）把任务交给你电脑上的[小瞳 Work]([https://xiaotongwork.skykale.cn/index.html])。
 
 
 ## 它做什么
